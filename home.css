@@ -1,7 +1,49 @@
 .container {
     display: grid;
-    grid-template-columns: 5% 18% 63% 5%;
-    grid-gap: 3%;
+    grid-template-columns: 10% 35% 35% 10%;
+    grid-gap: 5%;
+}
+
+#primary {
+    grid-column-start: 2;
+}
+
+#secondary {
+    grid-column-start: 3;
+}
+
+#tertiary{
+    grid-column-start: 3;
+
+    display: grid;
+    grid-template-columns: 30% 40%;
+    grid-gap: 7%;
+}
+
+#address{
+    grid-column-start: 1;
+}
+
+#map{
+    grid-column-start: 2;
+}
+
+
+.mapimage{
+    width: 400px;
+    height: 300px;
+}
+
+#hero {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    height: 80vh;
+
+
+    background-image:url(img/04-MMA-sparring-dont-knock-each-other-out.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #header {
@@ -13,23 +55,18 @@
     grid-column-start: 2;
 }
 
-#maincontent {
-    grid-column-start: 3;
-
-    display: grid;
-    grid-template-columns: 70% 27%;
-    grid-gap: 3%;
-}
-
 #footer {
     grid-column-start: 2;
     grid-column-end: span 2;
 }
 
-#primary {
-    grid-column-start: 1;
+body {
+    background-color: black;
+    color:whitesmoke;
 }
 
-#secondary {
-    grid-column-start: 2;
+.vid {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    margin: auto;
 }

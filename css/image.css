@@ -1,0 +1,15 @@
+.mapimage{
+    display: inline-flex;
+    max-width: 100%;
+ 
+}
+
+@media screen and (max-width: 1200px) {
+    .mapimage {
+        display: block;
+        width: 100%;
+        height: 80%;
+        margin-top: 1.5rem;
+    
+    }
+}

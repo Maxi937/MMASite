@@ -1,0 +1,25 @@
+.navlinks{
+    list-style-type: none;  
+}
+
+.navlinks li, a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color:whitesmoke;
+}

@@ -1,0 +1,118 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+body {
+    background-color: black;
+    color:whitesmoke;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 50;
+    line-height: 1.5rem;
+    
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    
+    padding: 1.5rem 0rem;
+    line-height: 1.5rem;   
+}
+
+
+
+p {
+    padding: 1rem 0rem;
+}
+
+.hero { 
+    position: relative;
+    display:flex;
+
+    background-image:url(/assets/img/04-MMA-sparring-dont-knock-each-other-out.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+
+    width: auto;
+    
+    align-items:flex-end;
+    
+}
+
+.hero-text {
+    color: black;
+    font-size: 1.0rem;
+    bottom: 70px;
+    
+    right: 0px;
+    text-align: left;
+    position:absolute;
+}
+
+.hero-text h1 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+    
+}
+
+.hero p{
+    padding:0;
+    margin-left: 3px;
+    width: 80%;
+}
+
+
+#tertiary ul{
+    list-style-type:none;
+    padding-left: 0px;
+    line-height: 2rem;
+}
+
+#tertiary h2 {
+    padding-top: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #fcc81f;
+}
+
+footer {
+    margin-top: 50px;
+    
+    background-color: #fcc81f;
+    color:#fcc81f;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        text-align: center;
+    }
+
+    body {
+        text-align:justify;
+    }
+
+    #tertiary {
+        text-align: center;
+    }
+
+    #tertiary h2 {
+        padding-top: 1.5rem;
+    }
+
+}

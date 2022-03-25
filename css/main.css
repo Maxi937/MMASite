@@ -32,43 +32,6 @@ p {
     padding: 1rem 0rem;
 }
 
-.hero { 
-    position: relative;
-    display:flex;
-
-    background-image:url(/assets/img/04-MMA-sparring-dont-knock-each-other-out.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    justify-content: center;
-
-    width: auto;
-    
-    align-items:flex-end;
-    
-}
-
-.hero-text {
-    color: black;
-    font-size: 1.0rem;
-    bottom: 70px;
-    
-    right: 0px;
-    text-align: left;
-    position:absolute;
-}
-
-.hero-text h1 {
-    font-size: 1.4rem;
-    margin-bottom: 4px;
-    
-}
-
-.hero p{
-    padding:0;
-    margin-left: 3px;
-    width: 80%;
-}
 
 
 #tertiary ul{
@@ -94,7 +57,7 @@ footer {
     margin-top: 50px;
     
     background-color: #fcc81f;
-    color:#fcc81f;
+    color:#0e0e0e;
     text-align: center;
 }
 
@@ -113,6 +76,10 @@ footer {
 
     #tertiary h2 {
         padding-top: 1.5rem;
+    }
+
+    .coachtext {
+        text-align: center;
     }
 
 }

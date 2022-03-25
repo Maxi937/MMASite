@@ -10,3 +10,7 @@ Website based around a fake MMA gym -
 6. Notable Fighters
 7. Contact
 
+Resources
+
+1. https://bennettfeely.com/clippy/
+Used clip-path on hero image. Used this website to help generate correct points for clip-path

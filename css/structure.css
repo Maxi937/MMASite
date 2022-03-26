@@ -10,9 +10,7 @@
     grid-template-columns: 50%  15% 25%;
     grid-template-rows: 1.5fr 1fr 1fr;
     column-gap: 5%;
-    row-gap: 2%;
-    
-    
+    row-gap: 2%; 
 }
 
 #coaches-container{
@@ -20,6 +18,31 @@
     grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
     column-gap: 5%;
     row-gap: 2%;
+}
+
+#gallery-container{
+    width: 100%;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    margin: auto;
+    padding: 0 1.5rem;
+    
+}
+
+.image-gallery{
+    margin: auto;
+    width: 70%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  
+    grid-template-areas:"gallery-img1 gallery-img2 gallery-img2 gallery-img2"
+                        "gallery-img1 gallery-img6 gallery-img7 gallery-img7"
+                        "gallery-img10 gallery-img10 gallery-img9 gallery-img5"
+                        "gallery-img3 gallery-img3 gallery-img3 gallery-img4"
+                        "gallery-img8 gallery-img8 gallery-img11 gallery-img4";
 }
 
 #headline{
@@ -31,7 +54,6 @@
 .coaches {
     grid-column-start: 1;
 } 
-
 
 
 #primary {
@@ -71,74 +93,28 @@
         margin: 10% auto;
     }
     
-    .hero{
-        position: relative;
-        display: block;
-        width: 100%;
-        margin: 10% auto;
-        height: 300px;
-    }
-    .hero-text{
-        display: block;
-        left: 70%;
-        width: 30%;
-        clip-path: none;
-    }
-
-    .hero-text h1 {
-        width: 100%;
-        display: block;
-        font-size: 1.2rem;
-        text-align: center;
-        bottom:0;
-        left:0;
-        top:0;
-        padding-top:20px;
-        
-    }
-    
-    .hero p{
-        width: 100%;
-        display: block;
-        font-size: 1rem;
-        text-align: center;
-        bottom:0;
-        left:0;
-        top:80px;
-
-    }
-
-    .hero-button{
-        width: 20%;
-        height: 20%;
-        font-size: 1rem;
-        text-align: center;
-        bottom:0;
-        right:5%;
-        bottom:5%;
-    }
-    .hero button{
-        position: relative;
-        width: 100%;
-        font-size: 1rem;
-        bottom:0;
-        left:0;
-        top:0;           
-    }
-    .hero a{
-        position: absolute;
-        width: 100%;
-        font-size: 1rem;
-        bottom:0;
-        left:0;
-        top:0;   
-        text-align: center;     
-    }
     .coaches {
         display: block;
         text-align: center;
 
     } 
+
+    .image-gallery{
+      
+        grid-template-areas:"gallery-img1 gallery-img1 gallery-img1 gallery-img1"
+                            "gallery-img2 gallery-img2 gallery-img2 gallery-img2"
+                            "gallery-img3 gallery-img3 gallery-img3 gallery-img3"
+                            "gallery-img4 gallery-img4 gallery-img4 gallery-img4"
+                            "gallery-img5 gallery-img5 gallery-img5 gallery-img5"
+                            "gallery-img6 gallery-img6 gallery-img6 gallery-img6"
+                            "gallery-img7 gallery-img7 gallery-img7 gallery-img7"
+                            "gallery-img8 gallery-img8 gallery-img8 gallery-img8"
+                            "gallery-img9 gallery-img9 gallery-img9 gallery-img9"
+                            "gallery-img10 gallery-img10 gallery-img10 gallery-img10"
+                            "gallery-img11 gallery-img11 gallery-img11 gallery-img11"
+    }
+
+    
 
 
 

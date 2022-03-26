@@ -1,0 +1,79 @@
+
+
+.membership-cards{
+    color: black;
+    background-color: black;
+    
+}
+
+.membership-cards ul{
+    font-weight: 200;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    list-style-type: none;
+}
+
+.membership-cards p, h3{
+    background-color: #fcc81f;
+}
+
+.membership-cards ul li{
+    padding: 1rem 0;
+}
+
+#membership-card1{
+    grid-area: membership-card1;
+    background-color: whitesmoke;
+    transition: opacity .5s;
+}
+
+#membership-card2{
+    grid-area: membership-card2;
+    background-color: whitesmoke;
+    transition: opacity .5s;
+}
+
+#membership-card3{
+    grid-area: membership-card3;
+    background-color: whitesmoke;
+    transition: opacity .5s;
+}
+
+.membership-button{
+    background-color: #fcc81f;
+    transition: opacity .5s;
+}
+
+.membership-cards button{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border: 0;
+    box-shadow: 0px 0px 0px 1px inset rgb(5, 5, 5);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    font-size: 1.1rem;
+    cursor:pointer;
+    transition: color 0.5s ease 0s;
+}
+
+.membership-cards button:hover {
+    color: whitesmoke;
+    box-shadow: 0px 0px 0px 1px inset whitesmoke;
+    background-color: #000000d2;
+    opacity:1;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .membership-button{
+        background-color:#fcc81f;
+        position: relative;
+        bottom: 80px;
+    }
+    .membership-cards ul li{
+        padding: 1rem 2rem;
+    }
+
+}

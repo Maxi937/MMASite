@@ -26,7 +26,19 @@
     grid-template-rows: none;
     margin: auto;
     padding: 0 1.5rem;
-    
+}
+
+.membership-cards{
+    margin: auto;
+    width: 70%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 0;
+    text-align: center;
+
+    grid-template-areas:"membership-card1 membership-card2 membership-card3";
 }
 
 .image-gallery{
@@ -114,8 +126,40 @@
                             "gallery-img11 gallery-img11 gallery-img11 gallery-img11"
     }
 
-    
+    .membership-card1 .membership-button{
+        grid-area: membership-button1;
 
+    }
+
+    .membership-card2 .membership-button{
+        grid-area: membership-button2;
+    }
+
+    .membership-card3 .membership-button{
+        grid-area: membership-button3;
+    }
+
+    .membership-cards{
+        margin: auto;
+        width: 70%;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0rem;
+        grid-row-gap: 1.5rem;
+        text-align: center;
+
+        grid-template-areas:"membership-card1"
+                            "membership-button1"
+                            "membership-card2" 
+                            "membership-button2"
+                            "membership-card3" 
+                            "membership-button3";
+
+
+
+
+    }
 
 
 

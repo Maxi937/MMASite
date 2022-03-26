@@ -1,0 +1,18 @@
+.membership-cards{
+    background-color: #fcc81f;
+}
+
+#membership-card1{
+    grid-area: membership-card1;
+    background-color: #fcc81f;
+}
+
+#membership-card2{
+    grid-area: membership-card2;
+    color: #fcc81f;
+}
+
+#membership-card3{
+    grid-area: membership-card3;
+    color: #fcc81f;
+}

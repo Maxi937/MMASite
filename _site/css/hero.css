@@ -75,10 +75,7 @@
 
     #index-container .black-button {
         position: absolute;
-        width: 20%;
-        height: 10%;
-        right: 5%;
-        bottom: 5%;
+        width: 100%;
     }
 
     .hero-text h1 {
@@ -112,13 +109,7 @@
         bottom: 0;
         left: 0;
         top: 0;
+        opacity: 0.3;
     }
 
-    .hero a {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        top: 0;
-    }
 }

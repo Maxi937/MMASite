@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -6,15 +6,15 @@ header{
     background-color: #fcc81f;
 }
 
-#logo img{
+#logo img {
     height: 42px;
     position: absolute;
     left: 5px;
     top: 5px;
 }
 
-.navlinks{
-    list-style-type: none;  
+.navlinks {
+    list-style-type: none;
 }
 
 .navlinks li, a {
@@ -26,98 +26,132 @@ header{
 
 }
 
-.navlinks li{
+.navlinks li {
     display: inline-block;
     padding: 0px 25px;
 }
 
-.navlinks li a{
+.navlinks li a {
     transition: all 0.3s ease 0s;
 }
 
-.navlinks li a:hover{
-    color:whitesmoke;
+.navlinks li a:hover {
+    color: whitesmoke;
 }
 
 
 footer {
-    display:flex;
+    display: flex;
     flex-direction: column;
     background-color: #fcc81f;
-    color:#0e0e0e; 
+    color: #0e0e0e;
 }
 
-.footer-container{
-    margin:auto;
+.footer-container {
+    margin: auto;
     width: 70%;
-    display:flex;
-    
+    display: flex;
+
     background-color: #fcc81f;
-    color:#0e0e0e;  
+    color: #0e0e0e;
     gap: 100px;
 }
 
 
-.footer-contact{
+.footer-contact {
     flex-grow: 1;
     flex-basis: 100%;
 }
 
-.footer-opening-hours{
+.footer-opening-hours {
     flex-grow: 1;
     flex-basis: 100%;
 }
 
-.footer-socials{
+.footer-socials {
     flex-grow: 1;
     flex-basis: 100%;
 }
 
-.footer-logo{
+.footer-logo {
     flex-grow: 1;
     flex-basis: 100%;
     align-self: flex-start;
 }
 
-.footer-container ul{
+.footer-container ul {
     list-style: none;
 }
 
-.footer-container h4{
+.footer-container h4 {
     padding-top: 1.5rem;
     padding-bottom: 1.1rem;
     font-size: 1.2rem;
 }
 
-.social-media-container{
-    display:flex;
+.social-media-container {
+    display: flex;
     gap: 7px;
 }
 
-.social-media-icons{
-    width:50px;
+.social-media-icons {
+    width: 50px;
     transition: opacity 0.3s ease 0s;
-    
+
     border-radius: 5px;
     opacity: 0.9;
 }
 
-.social-media-icons:hover{
+.social-media-icons:hover {
     opacity: 1;
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
 }
 
-.social-media-icons:active{
+.social-media-icons:active {
     transform: translateY(1px);
 }
 
-.footer-boilerplate{
+.footer-boilerplate {
     text-align: end;
 
 }
 
-.footer-logo img{
-    height: 40px; 
+.footer-logo img {
+    height: 40px;
 }
 
+@media screen and (max-width: 1200px) {
+
+    .footer-container {
+        display: block;
+        text-align: center;
+    }
+
+    .social-media-container {
+        display: block;
+        gap: 7px;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 12px 10%;
+        background-color: #fcc81f;
+    }
+
+    #logo img {
+        height: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,123 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 10%;
+    background-color: #fcc81f;
+}
+
+#logo img{
+    height: 42px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.navlinks{
+    list-style-type: none;  
+}
+
+.navlinks li, a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color:whitesmoke;
+}
+
+
+footer {
+    display:flex;
+    flex-direction: column;
+    background-color: #fcc81f;
+    color:#0e0e0e; 
+}
+
+.footer-container{
+    margin:auto;
+    width: 70%;
+    display:flex;
+    
+    background-color: #fcc81f;
+    color:#0e0e0e;  
+    gap: 100px;
+}
+
+
+.footer-contact{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footer-opening-hours{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footer-socials{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footer-logo{
+    flex-grow: 1;
+    flex-basis: 100%;
+    align-self: flex-start;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container h4{
+    padding-top: 1.5rem;
+    padding-bottom: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.social-media-container{
+    display:flex;
+    gap: 7px;
+}
+
+.social-media-icons{
+    width:50px;
+    transition: opacity 0.3s ease 0s;
+    
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.social-media-icons:hover{
+    opacity: 1;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.social-media-icons:active{
+    transform: translateY(1px);
+}
+
+.footer-boilerplate{
+    text-align: end;
+
+}
+
+.footer-logo img{
+    height: 40px; 
+}
+

@@ -16,67 +16,166 @@ body {
 
 h2{
     font-size: 2rem;
-    
     padding: 1.5rem 0rem;
     line-height: 1.5rem;   
 }
 
 h3{
     font-size: 2.5rem;
-    
     padding: 1.5rem 0rem;
     line-height: 1.5rem;   
 }
 
 #gallery-container h2 {
     text-align: center;
-    padding: 10rem 0rem;
 }
 
 p {
     padding: 1rem 0rem;
 }
 
-#tertiary ul{
+#address ul{
     list-style-type:none;
     padding-left: 0px;
     line-height: 2rem;
 }
 
-#tertiary h2 {
+#address h2 {
     padding-top: 0;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #fcc81f;
+.headline{
+    padding: 3rem 0rem;
 }
 
-footer {
-    margin-top: 50px;
-    
-    background-color: #fcc81f;
-    color:#0e0e0e;
-    text-align: center;
+.contact p {
+    margin:0;
+    padding: 0;
 }
+
+.contact h2{
+    margin:0;
+    padding: 0;
+}
+
+.field{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.black-button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+    border-radius: 5px;
+    border-style: solid;
+    border: 0;
+    box-shadow: 0px 0px 0px 1px inset rgb(5, 5, 5);
+
+    padding: 10px 20px;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: rgba(0, 0, 0, 0.418);
+    
+    font-size: 1.1rem;
+
+    cursor:pointer;
+    transition: color 0.3s ease 0s;
+}
+
+.yellow-button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+    border-radius: 5px;
+    border-style: solid;
+    border: 0;
+    box-shadow: 0px 0px 0px 1px inset rgb(5, 5, 5);
+
+    padding: 10px 20px;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: rgb(252, 200, 31);
+    
+    font-size: 1.1rem;
+
+    cursor:pointer;
+    transition: color 0.3s ease 0s;
+}
+
+.black-button:hover {
+    color: whitesmoke;
+    box-shadow: 0px 0px 0px 1px inset whitesmoke;
+    background-color: #000000d2;
+}
+
+.black-button:active {
+    transform: translateY(1px);
+}
+
+.yellow-button:hover {
+    color: whitesmoke;
+    box-shadow: 0px 0px 0px 1px inset whitesmoke;
+}
+
+.yellow-button:active {
+    transform: translateY(1px);
+}
+
+textarea{
+    min-width: 100%;
+    padding: 100px;
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid #fcc81f;
+    outline: none;
+}
+
+.field:hover{
+    background-color: #fff;
+    border: 2px solid #fcc81f;
+}
+
+#content-button-area{
+    text-align: right;
+}
+
+#contact-button-area .black-button{
+    background-color: rgba(255, 255, 255, .418);
+}
+
 
 @media screen and (max-width: 1200px) {
-    h2 {
-        text-align: center;
-    }
 
     body {
         text-align:justify;
     }
 
-    #tertiary {
+    #index-container h2 {
+        padding-top: 3rem;
+    }
+
+
+    #quadra, #tertiary,  h2 {
         text-align: center;
     }
 
-    #tertiary h2 {
+
+    #address {
+        text-align: center;
+    }
+
+    #address h2 {
         padding-top: 1.5rem;
     }
 

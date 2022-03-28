@@ -12,7 +12,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-blend-mode: darken;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -51,36 +50,8 @@
     padding: 0;
 }
 
-.hero-button {
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
-.hero button {
-    position: absolute;;
-
-    border-radius: 5px;
-    border-style: solid;
-    border: 0;
-    box-shadow: 0px 0px 0px 1px inset rgb(5, 5, 5);
-
-    padding: 10px 20px;
-    bottom: 30px;
-    right: 30px;
-
-    background-color: rgba(0, 0, 0, 0.418);
-    
-    font-size: 1.1rem;
-
-    cursor:pointer;
-    transition: color 0.3s ease 0s;
-}
-
-.hero button:hover {
-    color: whitesmoke;
-    box-shadow: 0px 0px 0px 1px inset whitesmoke;
-    background-color: #000000d2;
+#index-container .black-button {
+    position: absolute;
 }
 
 .hero:hover::before{
@@ -100,6 +71,14 @@
         left: 70%;
         width: 30%;
         clip-path: none;
+    }
+
+    #index-container .black-button {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        right: 5%;
+        bottom: 5%;
     }
 
     .hero-text h1 {
@@ -126,13 +105,6 @@
         padding-right: 5px;
     }
 
-    .hero-button {
-        position: absolute;
-        width: 20%;
-        height: 10%;
-        right: 5%;
-        bottom: 5%;
-    }
 
     .hero button {
         width: 100%;

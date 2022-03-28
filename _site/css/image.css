@@ -1,6 +1,8 @@
-.mapimage{
-    display: inline-flex;
-    max-width: 100%;
+
+#map iframe{
+    text-align: right;
+    height: 500px;
+    width: 100%;
 }
 
 .coach-img img {

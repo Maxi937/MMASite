@@ -1,4 +1,6 @@
-
+#membership-container h2{
+    text-align: center;
+}
 
 .membership-cards{
     color: black;
@@ -15,6 +17,7 @@
 
 .membership-cards p, h3{
     background-color: #fcc81f;
+    box-shadow: 0px 0px 0px 3px inset #fcc81f;
 }
 
 .membership-cards ul li{
@@ -74,6 +77,14 @@
     }
     .membership-cards ul li{
         padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+    .membership-cards p, h3{
+        box-shadow: 0px 0px 0px 3px inset #fcc81f;
+    }
+
+    .membership-cards p {
+        font-size: 1.4rem;
     }
 
 }

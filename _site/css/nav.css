@@ -6,14 +6,14 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 
 }
 
 .navlinks li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 .navlinks li a{
@@ -21,5 +21,5 @@
 }
 
 .navlinks li a:hover{
-    color:rgb(0, 0, 0);
+    color:whitesmoke;
 }

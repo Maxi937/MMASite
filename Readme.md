@@ -14,32 +14,6 @@ Contact "submit" button does not do anything
 
 Hosted: https://clinquant-licorice-83fa8d.netlify.app/
 
-
-Resources
-1. https://bennettfeely.com/clippy/
-Used clip-path on hero image. Used this website to help generate correct points for clip-path
-
-2. https://www.kevinpowell.co/resources/
-I read info on CSS (grids and flexbox). Learend more about grid template areas to do the gallery.
-
-3. Figma
-Computer application to make sketches and mock ups of pictures. I used this to mock up the website before making each page. It also made it easier to draw a grid over the shapes on figma to then transfer that to CSS.
-
-4. Photoshop
-I used photoshop on the coach images to make them all the same size and design.
-
-5. https://www.w3schools.com/
-Various info regarding certain tags and how they are used eg -
-- :hover
-- :before
-
-6. Wikipedia
-I copied the coach text from the wikipedia articles on each individual.
-
-7. Googlefonts - https://fonts.google.com/
-I used the Ubuntu font and linked to an external stylesheet to get it in my project.
-I also used google icons and followed their tutorial on how to get them in my project.
-
 Images
 
 Icons
